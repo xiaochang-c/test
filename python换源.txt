@@ -1,0 +1,21 @@
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/peterjc123
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch
+conda config --set show_channel_urls yes
+
+中科大
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo
+conda config --set show_channel_urls yes
+
+
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip --default-timeout=100 install tensorflow==2.0.0 -i https://pypi.douban.com/simple
